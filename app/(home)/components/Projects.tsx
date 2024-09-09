@@ -2,25 +2,28 @@ import Link from "next/link"
 import Title from "./Title"
 import { cn } from "@/lib/utils"
 import { DirectionAwareHover } from "@/components/ui/direction-aware-hover"
-import { SiReact, SiJavascript, SiTypescript, SiPostgresql, SiMongodb,SiPrisma, SiExpress, SiTailwindcss, SiHtml5, SiCss3, SiRedux  } from "react-icons/si";
+import { SiReact, SiJavascript, SiTypescript, SiMysql, SiNestjs, SiMongodb,SiPrisma,SiSpringboot, SiExpress, SiTailwindcss, SiHtml5, SiCss3, SiRedux  } from "react-icons/si";
+import { FaJava } from "react-icons/fa6";
 import { TbBrandNextjs, TbBrandNodejs } from "react-icons/tb";
+import { DiNodejs } from "react-icons/di";
+
 
 
 const Projects = () => {
 
     const projects = [
         {
-          title:"PayME Online Payments App",
-          tech: [SiJavascript,  SiReact, TbBrandNodejs, SiMongodb, SiExpress, SiTailwindcss],
+          title:"Task Management System",
+          tech: [SiTypescript,DiNodejs, SiMysql,SiNestjs, SiExpress,],
           Link: "https://pay-me-rho.vercel.app/",
-          cover: "/Final.jpg",
+          cover: "/task.png",
           background:"bg-indigo-500"
         },
         {
-            title:"Ecommerce Backend",
-            tech: [SiTypescript, SiPostgresql, SiPrisma, TbBrandNodejs, SiExpress,],
-            Link: "https://github.com/0x1Luffy/Ecommerce_Backend",
-            cover: "/EcommerceBackend.png",
+            title:"Student library Management Backend",
+            tech: [FaJava, SiSpringboot,],
+            Link: "https://github.com/rohitkushrbj7/library_management",
+            cover: "/lib.png",
             background:"bg-pink-500"
           },
           {
@@ -37,14 +40,13 @@ const Projects = () => {
             cover: "/FootVistaThumbnail.png",
             background:"bg-green-500"
           },
-          {
-            title:"React Admin Dashboard",
-            tech: [SiTypescript, SiReact,SiTailwindcss],
-            Link: "https://react-admin-dashboard-pink.vercel.app/",
-            cover: "/ReactAdminPannel@ChetanKesare.png",
-            background:"bg-fuchsia-500"
-          },
-          
+          // {
+          //   title:"React Admin Dashboard",
+          //   tech: [SiTypescript, SiReact,SiTailwindcss],
+          //   Link: "https://react-admin-dashboard-pink.vercel.app/",
+          //   cover: "/ReactAdminPannel@ChetanKesare.png",
+          //   background:"bg-fuchsia-500"
+          // },
     ]
   return (
     <div className="py-10 p-5 sm:p-0">

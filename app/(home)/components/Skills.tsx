@@ -1,7 +1,7 @@
 "use client";
 import { HoverEffect } from "@/components/ui/card-hover-effect"
 import Title from "./Title"
-import { SiReact, SiJavascript, SiTypescript, SiPostgresql, SiMongodb,SiPrisma, SiExpress, SiTailwindcss, SiHtml5, SiCss3  } from "react-icons/si";
+import { SiReact, SiJavascript, SiTypescript, SiPostgresql, SiMongodb,SiPrisma, SiExpress, SiTailwindcss, SiHtml5, SiCss3 ,SiSpringboot ,SiMui} from "react-icons/si";
 import { TbBrandNextjs, TbBrandNodejs } from "react-icons/tb";
 
 
@@ -25,16 +25,16 @@ const Skills = () => {
                     Icon:TbBrandNextjs
                     },
                     {
-                        text:"Postgres",
-                        Icon:SiPostgresql
+                        text:"Spring Boot",
+                        Icon:SiSpringboot
                         },
                         {
                             text:"MongoDB",
                             Icon:SiMongodb
                             },
                             {
-                                text:"Prisma ORM",
-                                Icon:SiPrisma
+                                text:"Material UI",
+                                Icon:SiMui
                                 },
                                 {
                                     text:"NodeJS",

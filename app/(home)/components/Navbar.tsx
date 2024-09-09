@@ -6,22 +6,22 @@ const Navbar = ({className}:{className?:string}) => {
 
     const socials = [
         {
-            link:"https://www.linkedin.com/in/chetan-kesare09",
+            link:"https://www.linkedin.com/in/rohit-kumar-a04939216/",
             label:"LinkedIN",
             Icon: SiLinkedin,
         },
         {
-            link:"https://github.com/0x1Luffy",
+            link:"https://github.com/rohitkushrbj7",
             label:"GitHub",
             Icon:SiGithub,
         },
         {
-            link:"https://www.instagram.com/chetannn.k",
+            link:"https://www.instagram.com/r.o.h.i.t._kush/",
             label:"Instagram",
             Icon: SiInstagram,
         },
         {
-            link:"https://twitter.com/0x1Luffy",
+            link:"https://x.com/ROHITKUSHAWAHA1?t=Pu3jvYxPqy6wg2_Rtmcd7A&s=09&mx=2",
             label:"X",
             Icon:SiX,
         }
@@ -29,7 +29,7 @@ const Navbar = ({className}:{className?:string}) => {
     ]
   return (
    <nav className={cn("py-10 flex justify-between items-center animate-move-down", className)}>
-    <h1 className="text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2"> Chetan Kesare 🧿</h1>
+    <h1 className="text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2"> Rohit Kumar 🧿</h1>
     <div className="flex items-center gap-5">
         {socials.map((elem,index)=>{
             const Icon = elem.Icon;
