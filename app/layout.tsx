@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 	title: 'Rohit Kumar',
 	authors: {
-		name: "Chetan Kesare",
+		name: "Rohit Kumar",
 	},
 
 	description:
@@ -23,12 +23,12 @@ export const metadata: Metadata = {
 		title: "Rohit Kumar",
 		description:
 			"Evolving Code, Self-Taught Spirit: Web Development Journey from India.",
-		url: "https://chetankesare9.vercel.app/",
+		url: "https://vercel.com/rohitkushrbj7s-projects",
 		siteName: "Rohit Kumar",
 		// images: "/newPortfolio.png",
 		type: "website",
 	},
-	keywords: ["personal portfolio website", "portfolio website templete", "web developer", "web Development roadmap", "react portfolio website", "3d portfolio website", "three.js portfolio website", "portfolio website github","portfolio website template","free portfolio website", "chetan kesare", "chetan kesare github", "chetan kesare linkedin", "chetan kesare from sangli", "terna engineering college nerul", "terna college", "terna college mumbai", "terna dental college"],
+	keywords: ["personal portfolio website", "portfolio website templete", "web developer", "web Development roadmap", "react portfolio website", "3d portfolio website", "three.js portfolio website", "portfolio website github","portfolio website template","free portfolio website", "rohit kumar", "rohit kumar github", "rohit kumar linkedin", "rohit kumar from sangli", "terna engineering college nerul", "terna college", "terna college mumbai", "terna dental college"],
 };
 
 
