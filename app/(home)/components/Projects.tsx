@@ -15,7 +15,7 @@ const Projects = () => {
         {
           title:"Task Management System",
           tech: [SiTypescript,DiNodejs, SiMysql,SiNestjs, SiExpress,],
-          Link: "https://pay-me-rho.vercel.app/",
+          Link: "https://github.com/rohitkushrbj7/Taskmanager-Backed-",
           cover: "/task.png",
           background:"bg-indigo-500"
         },
